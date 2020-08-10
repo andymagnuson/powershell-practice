@@ -5,6 +5,6 @@ git clone "https://github.com/$GitHubUsername/powershell-practice" "$PracticeRep
 Copy-Item C:\Users\andy\source\repos\auto-commiting-setup.ps1 C:\Users\andy\source\repos\powershell-practice
 cd $PracticeRepoDir
 git add --all
-git commit -m '$CommitMessage'
+git commit -m $CommitMessage
 git push origin master
 
